@@ -1,0 +1,239 @@
+
+
+<!-- ========================================================================================================================================= -->
+
+<style>
+  
+    footer {
+        width: 100%;
+        /* position: absolute; */
+        background: linear-gradient(to right, #1d4b1b, #023611);
+        color: #fff;
+        padding: 100px 0 30px;
+        font-size: 13px;
+        line-height: 20px;
+
+    }
+
+    .row {
+       
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+
+    .col {
+        flex-basis: 25%;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .col:nth-child(2),
+    .col:nth-child(3) {
+        flex-basis: 15%;
+    }
+
+    /* .logo{
+    width: 100px;
+    margin-bottom: 30px;
+} */
+
+    .col h3 {
+        width: fit-content;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .email-id {
+        width: fit-content;
+        border-bottom: 1px solid #ccc;
+        margin: 20px 0;
+    }
+
+    ul li {
+        list-style: none;
+        margin-bottom: 12px;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* form {
+        padding-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 50px;
+    } */
+
+    form .fa-regular {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    form input {
+        width: 100%;
+        background: transparent;
+        color: #ccc;
+        border: 0;
+        outline: none;
+    }
+
+    form button {
+        background: transparent;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+    }
+
+    form button .fa-solid {
+        font-size: 16px;
+        color: #ccc;
+    }
+
+    .social-icons .fa-brands {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        color: #000;
+        background: #fff;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+
+    hr {
+        width: 90%;
+        border: 0;
+        border-bottom: 1px solid #ccc;
+        margin: 20px auto;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    .underline {
+        width: 100%;
+        height: 5px;
+        background: #767676;
+        border-radius: 3px;
+        position: absolute;
+        top: 25px;
+        left: 0;
+        overflow: hidden;
+    }
+
+    .underline span {
+        width: 15px;
+        height: 100%;
+        background: #fff;
+        border-radius: 3px;
+        position: absolute;
+        top: 0;
+        left: 10px;
+        animation: moving 2s linear infinite;
+    }
+
+    @keyframes moving {
+        0% {
+            left: -20px;
+        }
+
+        100% {
+            left: 100%;
+        }
+    }
+
+    @media (max-width: 700px) {
+        footer {
+            bottom: unset;
+        }
+
+        .col {
+            flex-basis: 100%;
+
+        }
+
+        .col:nth-child(2),
+        .col:nth-child(3) {
+            flex-basis: 100%;
+        }
+    }
+</style>
+
+
+
+
+    <footer >
+        <div style=" width: 90%;  margin: auto;" class="row">
+            <div class="col">
+                <div style="display: flex;align-items: center; margin-bottom: 10px; ">
+                    <img src="/images/logo.png" width="50px" height="50px" class="logo">
+                    <h1 style="margin-left: 20px;">ByteBook</h1>
+                </div>
+
+                <p>Bytes Books Is An Online Platform That Specializes In E-Books, Which Are Digital Versions Of
+                    Traditional Printed Books. E-Books Can Be Read On A Variety Of Devices, Including E-Readers,
+                    Tablets, Smartphones, And Computers. Bytes Books Offers A Wide Selection Of E-Books Across Different
+                    Genres, Including Fiction, Non-Fiction, Academic, And Educational Books. </p>
+            </div>
+            <div class="col">
+                <h3>Office <div class="underline">
+                        <span></span>
+                    </div>
+                </h3>
+                <p>Naini Road</p>
+                <p>ADA colony</p>
+                <p>Prayagraj, PIN 211008, India</p>
+                <p class="email-id">official.bytebook@gmail.com</p>
+                <h4>+91 - 9936451259</h4>
+            </div>
+            <div class="col">
+                <h3>Links <div class="underline">
+                        <span></span>
+                    </div>
+                </h3>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="/contact">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter <div class="underline">
+                        <span></span>
+                    </div>
+                </h3>
+                <form style=" padding-bottom: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid #ccc;
+                margin-bottom: 50px;" >
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email-id" required>
+                    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">&copy; Copyright 2023 - ByteBook </p>
+    </footer>
+</body>

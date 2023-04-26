@@ -1,0 +1,118 @@
+body{
+    background-color: whitesmoke;
+}
+.cartItemContainer {
+    display: flex;
+    /* margin-top: 20px; */
+    flex-wrap: wrap;
+
+}
+
+.col2 {
+    flex: 2;
+    margin-top:0;
+    min-width: 260px;
+    margin-left:20px;
+}
+
+.col1 {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+   
+    min-width: 260px;
+    /* margin-top: 20px; */
+}
+.action{
+    padding: 10px;
+    width: 100%;
+}
+
+.actionsty {
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    margin:0;
+    box-shadow: 2px 2px 2px #27ae60;
+    border: 1px solid  #239a55;
+    border-radius: 3px;
+    
+}
+
+.blankCart h2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+     align-items: center;
+     justify-content: center; 
+
+    font-size: 25px;
+}
+.blankCart button{
+    position: absolute;
+    top: 30%;
+   
+    left: 50%;
+    transform: translate(-50%,-50%);
+     align-items: center;
+     justify-content: center; 
+    background-color: #27ae60;
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    border: 1px solid #27ae60;
+    padding: 8px;
+}
+.action button {
+    background-color:  #27ae60;
+    border: none;
+    color: white;
+    padding: 10px;
+    min-width: 260px;
+    font-weight: bolder;
+    border-radius: 9px;
+    border: 1px solid  #27ae60;
+    margin-top: 15px;
+    
+    width: 100%;
+}
+
+
+.cartitem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    /* border-left:3px solid rgb(206, 119, 119);
+    border-top: 3px solid green;
+    border-right: 3px solid brown; */
+    /* border-bottom: 3px solid yellow; */
+    box-shadow: 1px 2px 2px 1px #4dc981;
+    border: 1px solid  #27ae60;
+    border-radius: 3px;
+
+}
+
+.cartitem button {
+    background-color:  #27ae60;
+    margin-right: 10px;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 8px;
+    height: 35px;
+    width: 80px;
+    font-weight: bolder;
+    border-radius: 9px;
+    border: 1px solid  #27ae60
+    
+}
+
+.msgBox {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    /* margin-top: 60px; */
+}
